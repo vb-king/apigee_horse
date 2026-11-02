@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FlowCallout continueOnError="false" enabled="true" name="fc-3dx-auth">
+  <DisplayName>fc-3dx-auth</DisplayName>
+  <FaultRules/>
+  <Properties/>
+  <SharedFlowBundle>3dx-authentication</SharedFlowBundle>
+</FlowCallout>

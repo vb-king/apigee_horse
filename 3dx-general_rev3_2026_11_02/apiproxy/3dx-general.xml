@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="3dx-general">
+  <DisplayName/>
+  <Description/>
+  <CreatedAt>1759473925572</CreatedAt>
+  <LastModifiedAt>1759473925572</LastModifiedAt>
+  <BasePaths>/3dx-general</BasePaths>
+  <Policies>
+    <Policy>fc-3dx-auth</Policy>
+    <Policy>fc-handle-cookie</Policy>
+    <Policy>remove-header-authorization</Policy>
+    <Policy>verify-oauth-v2-access-token</Policy>
+  </Policies>
+  <ProxyEndpoints>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </ProxyEndpoints>
+  <TargetEndpoints>
+    <TargetEndpoint>default</TargetEndpoint>
+  </TargetEndpoints>
+</APIProxy>
